@@ -1,9 +1,15 @@
 # encodeing: utf-8
 import tensorflow as tf
 import numpy as np
+import __future__ as fu
 
-cc = tf.zeros([10])
+from tensorflow.examples.tutorials.mnist import input_data
 
-cc = tf.Variable(cc)
+def main(unused_args):
+#	print 'this is main'
+#	print tf.__file__
+#	print input_data.__file__
+	print fu.__file__
 
-print cc
+if __name__=='__main__':
+	tf.app.run()
