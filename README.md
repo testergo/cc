@@ -1,6 +1,4 @@
 # cc
 this is only the cc test project........
 
-mp
-
-hello, github....
+try to learn ai
